@@ -1,7 +1,7 @@
 Q_H <-
 function(simnum = 10000, TT = 50)
 {
-  signal = TT = sing.acf = h = v = c()
+  signal = sing.acf = h = v = c()
 
   lb = TT*(TT+2)/(4*(TT-1)^2)
   
